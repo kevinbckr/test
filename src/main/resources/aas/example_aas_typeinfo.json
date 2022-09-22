@@ -1,0 +1,88 @@
+{
+	"modelType": {
+		"name": "AssetAdministrationShell"
+	},
+	"displayName" : [
+		{
+			"language" : "en-us",
+			"text": "TestAAS"
+		}
+	],
+	"assetInformation": {
+		"assetKind": "Instance",
+		"globalAssetId": {
+			"type" : "GlobalReference",
+			"keys": [
+				{
+					"type": "Asset",
+					"value": "https://acplt.org/Test_Asset"
+				}
+			]
+		},
+		"billOfMaterial": [
+			{
+				"type" : "ModelReference",
+				"keys": [
+					{
+						"type": "Submodel",
+						"value": "http://acplt.org/Submodels/Assets/TestAsset/BillOfMaterial"
+					}
+				]
+			}
+		]
+	},
+	"derivedFrom": {
+		"type" : "ModelReference",
+		"keys": [
+			{
+				"type": "AssetAdministrationShell",
+				"value": "https://acplt.org/TestAssetAdministrationShell2"
+			}
+		]
+	},
+	"submodels": [
+		{
+			"type" : "ModelReference",
+			"keys": [
+				{
+					"type": "Submodel",
+					"value": "https://acplt.org/Test_Submodel"
+				}
+			]
+		},
+		{
+			"type" : "ModelReference",
+			"keys": [
+				{
+					"type": "Submodel",
+					"value": "http://acplt.org/Submodels/Assets/TestAsset/BillOfMaterial"
+				}
+			]
+		},
+		{
+			"type" : "ModelReference",
+			"keys": [
+				{
+					"type": "Submodel",
+					"value": "http://acplt.org/Submodels/Assets/TestAsset/Identification"
+				}
+			]
+		}
+	],
+	"administration": {
+		"revision": "0",
+		"version": "0.9"
+	},
+	"identification": "https://acplt.org/Test_AssetAdministrationShell",
+	"idShort": "TestAssetAdministrationShell",
+	"description": [
+		{
+			"language": "en-us",
+			"text": "An Example Asset Administration Shell for the test application"
+		},
+		{
+			"language": "de",
+			"text": "Eine Beispiel-Verwaltungsschale für eine Test-Anwendung"
+		}
+	]
+}
